@@ -1,0 +1,2 @@
+{props.openspots ===0 && <div className="card--badge">sold out</div>}
+            {props.openspots !==0 && <div className="card--badge">online</div>}
